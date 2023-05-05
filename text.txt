@@ -1,0 +1,6 @@
+__eq__() chama pelo operador ==
+__ne__() chama pelo operador !=
+__gt__() chama pelo operador >
+__lt__() chama pelo operador <
+__ge__() chama pelo operador >=
+__le__() chama pelo operador <=
