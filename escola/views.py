@@ -11,4 +11,4 @@ class AlunosViewSet(viewsets.ModelViewSet):
 class CursosViewSet(viewsets.ModelViewSet):
     """Exibindo todos os cursos"""
     queryset = Curso.objects.all()
-    serializer_class = CursoSerializer
+    serializer_class = CursoSerializer 
