@@ -1,6 +1,7 @@
 from django.contrib import admin
 from escola.models import Aluno, Curso, Matricula
 
+
 class Alunos(admin.ModelAdmin):
     list_display = ('id', 'nome', 'rg', 'cpf', 'data_nascimento')
     list_display_links = ('id', 'nome')
